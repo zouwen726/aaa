@@ -1,0 +1,83 @@
+<!--  -->
+<template>
+<div class='login'>
+   <div class="box">
+    <div class="one">1</div>
+    <div class="one">2</div>
+    <div class="one">3</div>
+    <div class="one">4</div>
+    <div class="one">5</div>
+    <div class="one">6</div>
+    <div class="one">1</div>
+    <div class="one">2</div>
+    <div class="one">3</div>
+    <div class="one">4</div>
+    <div class="one">5</div>
+    <div class="one">1</div>
+    <div class="one">2</div>
+    <div class="one">3</div>
+    <div class="one">4</div>
+    <div class="one">5</div>
+    <div class="one">6</div>
+    <div class="one">1</div>
+    <div class="one">2</div>
+    <div class="one">3</div>
+    <div class="one">4</div>
+    <div class="one">5</div>
+   </div>
+</div>
+</template>
+
+<script>
+//这里可以导入其他文件（比如：组件，工具js，第三方插件js，json文件，图片文件等等）
+//例如：import 《组件名称》 from '《组件路径》';
+
+export default {
+//import引入的组件需要注入到对象中才能使用
+components: {},
+data() {
+//这里存放数据
+return {
+
+};
+},
+//监听属性 类似于data概念
+computed: {},
+//监控data中的数据变化
+watch: {},
+//方法集合
+methods: {
+
+},
+//生命周期 - 创建完成（可以访问当前this实例）
+created() {
+
+},
+//生命周期 - 挂载完成（可以访问DOM元素）
+mounted() {
+
+},
+}
+</script>
+<style lang='less' scoped>
+//@import url(); 引入公共css类
+.login{
+    padding: 0 10px;
+    // display: grid;
+    .box{
+        width: 800px;
+        height: 100px;
+        display: grid;
+        background-color: #e69898;
+       grid-template-columns: repeat(11,1fr);
+       gap: 10px;
+    }
+    
+    
+    .one{
+      background-color: #72bb58;
+        
+    }
+}
+
+</style>
